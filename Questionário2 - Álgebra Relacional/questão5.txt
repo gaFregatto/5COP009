@@ -1,0 +1,5 @@
+(π departamento.cod_depto, nome_depto, num_disc, nome_disc 
+    (σ departamento.cod_depto = disciplina.cod_depto AND creditos_disc = 6 OR disciplina.cod_depto IS NULL
+        (departamento x disciplina)
+    )
+) 

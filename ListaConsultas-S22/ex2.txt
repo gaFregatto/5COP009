@@ -1,0 +1,3 @@
+Para que o comando INSERT do exercício 1 seja feito com sucesso,
+é necessário que não exista tupla onde os campos ano_sem, cod_depto, num_disc e sigla_ofer
+sejam exatamente iguais, pois os 4 foram a super-chave da tabela oferta, e devem ser uma combinação única na mesma.

@@ -1,0 +1,5 @@
+(π professor.cod_prof, nome_prof
+    (σ professor.cod_prod = prof_oferta AND professor.cod_depto <> prof_oferta.cod_depto
+        (professor X prof_oferta)
+    )
+)

@@ -1,0 +1,5 @@
+(π cod_prof
+    (σ cod_depto = INF01 AND ano_sem = 20021
+        (prof_oferta)
+    )
+)

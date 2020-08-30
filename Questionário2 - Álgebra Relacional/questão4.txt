@@ -1,0 +1,8 @@
+(π depto.cod_depto, nome_depto, num_disc, nome_disc, ano_sem, sigla_ofer
+    (σ depto.cod_depto = disciplina.cod_depto AND 
+        depto.cod_depto = oferta.cod_depto OR 
+        disciplina.cod_depto IS NULL OR 
+        oferta.num_disc IS NULL
+        (depto X disciplina X oferta)
+    )    
+)

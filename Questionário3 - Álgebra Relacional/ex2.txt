@@ -1,0 +1,5 @@
+﻿(π cod_prod
+    (σ cod_tit = 4 AND disciplina.cod_depto = INF01
+        (professor x disciplina)
+    )
+)

@@ -1,0 +1,5 @@
+(π cod_depto, nome_depto, num_disc, nome_disc
+    (σ depto.cod_depto = disciplina.cod_depto OR disciplina.cod_depto IS NULL
+        (depto X disciplina)
+    )
+)

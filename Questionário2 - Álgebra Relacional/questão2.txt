@@ -1,0 +1,15 @@
+(π cidade_fornec, nome_peca, nome_fornec
+    (σ cidade_fornec = cidade_peca
+        (fornecedor X peca)
+    )
+)
+
+(π cidade_fornec, nome_peca, nome_fornec
+    ( fornecedor
+        ⋈ (cidade_fornec = cidade_peca)
+        peca
+    )
+)
+
+Não é possível resolver o caso com equijunção, porque as tabelas peca e fornecedor não possuem chaves estrangeiras uma da outra, ou seja,
+não possuem colunas com mesmo nome, o que é necessária para o uso da equijunção.

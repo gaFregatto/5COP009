@@ -1,0 +1,5 @@
+(π ano_sem
+(σ professor.cod_depto = INF01
+(professor x oferta)
+)
+)

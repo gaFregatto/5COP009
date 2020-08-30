@@ -1,0 +1,5 @@
+(π disciplina.cod_depto, disciplina.num_disc, nome_disc
+    (σ disciplina.cod_depto = oferta.cod_depto AND disciplina.num_disc = oferta.num_disc AND ano_sem = 20021
+        (disciplia X oferta)
+    )
+)

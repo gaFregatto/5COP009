@@ -1,0 +1,5 @@
+(π cod_fornec, nome_fornec, cod_peca, nome_peca
+    (σ cidade_fornec <> cidade_peca AND embarque.cod_fornec = fornecedor.cod_fornec AND embarque.cod_peca = peca.cod_fornec     
+        (peca X fornecedor X embarque)
+    )
+)

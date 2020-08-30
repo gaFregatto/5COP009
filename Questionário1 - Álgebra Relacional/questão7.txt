@@ -1,0 +1,12 @@
+(π cod_prof, nome_prof
+    (σ cod_prof
+        (π cod_prof
+            (professor)
+        )
+        -
+        (π cod_prof
+            (prof_oferta)
+        )
+        (professor)
+    )
+)

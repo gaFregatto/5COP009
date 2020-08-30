@@ -1,0 +1,5 @@
+(π depto.cod_depto, nome_depto
+    (σ oferta.id_oferta = periodo.id_oferta AND dia_sem = 2 AND oferta.ano_sem = 20021 AND periodo.id_sala = 101 AND cod_predio = 43421
+        (depto X oferta X predio X periodo)
+    )
+)

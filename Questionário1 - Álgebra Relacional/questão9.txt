@@ -1,0 +1,8 @@
+(π disciplina.nome_disc, disciplina_req.nome_disc
+    (σ disciplina.cod_depto = prereq.cod_depto AND 
+        disciplina.num_disc = prereq.num_disc AND 
+        disciplina_req.cod_depto = prereq.cod_depto AND
+        disciplina_req.num_disc = prereq.num_disc
+        (disciplina X prereq X (ρ disciplina_req (disciplina)) )
+    )
+)
